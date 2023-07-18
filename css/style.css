@@ -8641,6 +8641,11 @@ h1, h2, h3, h4, h5,
     width: 100%;
     position: relative;
     z-index: 1; }
+    @media (max-width: 767px) {
+      .img-about .img {
+        height: 450px; /* Set the height for screens smaller than 'md' */
+      }
+    }
 
 .ftco-about ul.about-info {
   display: inline-block;
